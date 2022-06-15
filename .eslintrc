@@ -1,0 +1,17 @@
+{
+    "extends": "eslint:recommended",
+    "env": {
+        "node": true,
+        "es6": true,
+        "mocha": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "plugins": ["prettier", "mocha"],
+    "rules": {
+        "mocha/no-exclusive-tests": "error",
+        "prettier/prettier": "error",
+        "no-console": 0
+    }
+}
